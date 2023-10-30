@@ -10,14 +10,14 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho__menu__grupo">
-            <a href="index.html" class="cabecalho__menu__item">Home</a>
-            <a href="contato.html" class="cabecalho__menu__item">Contato</a>
-            <a href="sobre.html" class="cabecalho__menu__item">Sobre</a>
+            <a id="btn_home" href="index.html" class="cabecalho__menu__item">Home</a>
+            <a id="btn_contato" href="contato.html" class="cabecalho__menu__item">Contato</a>
+            <a id="btn_sobre" href="sobre.html" class="cabecalho__menu__item">Sobre</a>
         </div>
         <div class="cabecalho__menu__grupo container">
             <input type="checkbox" id="opcoes-login" class="container__botao">
             <label for="opcoes-login">
-                <a class="cabecalho__menu__item">Login</a>
+                <a id="btn_login" class="cabecalho__menu__item">Login</a>
             </label>
             <div id="login" class="form-orcamento bordas">
                 <input id="usuario" class="form-contato__entrada form-login__entrada" type="text" placeholder="Usuário">
@@ -32,7 +32,7 @@
     <main class="area-conteudo">
         <section class="carrossel">
             <h2 class="subtitulo home">Nossos produtos</h2>
-            <div class="carrossel__container">
+            <div class="carrossel__container carrossel__info-empresa">
                 <!-- Slider main container -->
                 <div class="swiper">
                     <!-- If we need pagination -->

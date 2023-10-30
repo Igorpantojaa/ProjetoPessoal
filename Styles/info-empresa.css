@@ -1,4 +1,3 @@
-
 .info-empresa{
     display: flex;
     margin-top: 2em;
@@ -13,6 +12,7 @@
 .bloco-info__contato,
 .bloco-info__mapa{
     align-items: center;
+    padding: 0 1em 1em 1em;
 }
 
 .bloco-info__contato{
@@ -24,7 +24,6 @@
 
 .bloco-info__mapa{
     width: 80vh;
-    padding: 0 1em 1.5em 1em;
 }
 
 .form-contato__entrada{
@@ -104,4 +103,28 @@
 
 .form-contato__entrada::placeholder{
     text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+    .info-empresa{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .bloco-info__contato,
+    .bloco-info__mapa{
+        margin: 1em 3em
+    }
+
+    .bloco-info__contato,
+    .bloco-info__mapa{
+        width: 80%;
+        height: 30em;
+        padding: 0 1em 1em 1em;
+    }
+
+    .carrossel__info-empresa{
+        display: flex;
+    }
 }

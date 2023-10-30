@@ -49,3 +49,21 @@
 .sobre{
     margin-bottom: 1em;
 }
+
+@media screen and (max-width: 1024px){
+    .area-conteudo{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .conteudo{
+        position: relative;
+        z-index: 0;
+        padding: 0;
+    }
+
+    .conteudo__item__carrossel{
+        width: 70vw;
+    }
+}

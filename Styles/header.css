@@ -77,3 +77,15 @@
 .cabecalho__menu__item:hover{
     color: var(--cor-hover);
 }
+
+@media screen and (max-width: 1024px){
+    .cabecalho{
+        margin: 0;
+        padding: 1em 2em;
+    }
+
+    #login{
+        right: 5%;
+    }
+
+}

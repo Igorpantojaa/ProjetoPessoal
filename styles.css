@@ -20,7 +20,6 @@
 }
 
 body{
-    margin: 0;
 	padding: 0;
 	border: 0;
     box-sizing: border-box;
@@ -50,4 +49,8 @@ body{
     -moz-border-radius: var(--bordas-blocos);
     -ms-border-radius: var(--bordas-blocos);
     -o-border-radius: var(--bordas-blocos);
+}
+
+@media screen and (max-width: 1024px){
+    
 }

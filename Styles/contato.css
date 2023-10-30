@@ -62,3 +62,13 @@
 .redes__link:hover{
     color: var(--cor-terciaria);
 }
+
+@media screen and (max-width: 1024px){
+    .area-conteudo{
+        margin: 0;
+        padding: 0;
+    }
+    .conteudo__grupo{
+        flex-direction: column;
+    }
+}

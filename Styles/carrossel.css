@@ -29,3 +29,12 @@
     -ms-border-radius: var(--bordas-blocos);
     -o-border-radius: var(--bordas-blocos);
 }
+
+@media screen and (max-width: 1024px){
+    .carrossel{
+        width: 85%;
+    }
+    .carrossel__imagem{
+        height: 100%;
+    }
+}
