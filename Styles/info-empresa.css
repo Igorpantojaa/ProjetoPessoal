@@ -1,0 +1,103 @@
+
+.info-empresa{
+    display: flex;
+    margin-top: 2em;
+    width: 70%;
+    gap: 2em
+}
+
+.bloco-info__contato,
+.bloco-info__mapa{
+    align-items: center;
+}
+
+.bloco-info__contato{
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    padding: 0 1em 1em 1em;
+}
+
+.bloco-info__mapa{
+    width: 80vh;
+    padding: 0 1em 1.5em 1em;
+}
+
+.form-contato__entrada{
+    font-family: var(--fonte-secundaria);
+    border-radius: var(--bordas-entradas);
+    padding: .5em 1em;
+    margin-bottom: .3em;
+    text-align: center;
+    -webkit-border-radius: var(--bordas-entradas);
+    -moz-border-radius: var(--bordas-entradas);
+    -ms-border-radius: var(--bordas-entradas);
+    -o-border-radius: var(--bordas-entradas);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#email,
+#telefone{
+    width: 50%;
+    gap: .2em;
+}
+
+#grupo-contatos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#endereco{
+    margin-bottom: .5em;
+}
+
+#pedido{
+    height:12em;
+    text-align: left;
+}
+
+#botao-enviar{
+    margin-top: 1em;
+    border-radius: var(--bordas-entradas);
+    padding: .5em;
+    font-family: var(--fonte-secundaria);
+    border: 1px solid var(--cor-terciaria);
+    -webkit-border-radius: var(--bordas-entradas);
+    -moz-border-radius: var(--bordas-entradas);
+    -ms-border-radius: var(--bordas-entradas);
+    -o-border-radius: var(--bordas-entradas);
+}
+
+.botao:hover{
+    background-color: var(--cor-hover);
+    color: var(--cor-secundaria);
+}
+
+.map-frame{
+    height: 85%;
+    border-radius: var(--bordas-blocos);
+    -webkit-border-radius: var(--bordas-blocos);
+    -moz-border-radius: var(--bordas-blocos);
+    -ms-border-radius: var(--bordas-blocos);
+    -o-border-radius: var(--bordas-blocos);
+}
+
+.form-contato__text{
+    margin: 0 0 .2em 0;
+    text-align: left;
+}
+
+.form-contato__entrada::placeholder{
+    text-align: center;
+}

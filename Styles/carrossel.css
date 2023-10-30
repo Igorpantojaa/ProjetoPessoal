@@ -1,0 +1,31 @@
+.carrossel{
+    margin-top: 3em;
+    width: 70%;
+    padding-bottom: 1em;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 0;
+}
+
+.carrossel__imagem{
+    height: 70vh;
+    border-radius: var(--bordas-blocos);
+    -webkit-border-radius: var(--bordas-blocos);
+    -moz-border-radius: var(--bordas-blocos);
+    -ms-border-radius: var(--bordas-blocos);
+    -o-border-radius: var(--bordas-blocos);
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper{
+    width: 100%;
+    border-radius: var(--bordas-blocos);
+    -webkit-border-radius: var(--bordas-blocos);
+    -moz-border-radius: var(--bordas-blocos);
+    -ms-border-radius: var(--bordas-blocos);
+    -o-border-radius: var(--bordas-blocos);
+}

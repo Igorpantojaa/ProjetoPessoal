@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url("Styles/header.css");
+@import url("Styles/info-empresa.css");
+@import url("Styles/carrossel.css");
+@import url("Styles/footer.css");
+
+:root{
+    --cor-primaria: #04364A;
+    --cor-secundaria: #DAFFFB;
+    --cor-terciaria: #64CCC5;
+    --cor-hover: #176B87;
+
+    --bordas-blocos: 15px;
+    --bordas-entradas: 8px;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.area-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
+
+.subtitulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1.5em;
+}
+
+.bordas{
+    border: 2px solid var(--cor-terciaria);
+    border-radius: var(--bordas-blocos);
+    -webkit-border-radius: var(--bordas-blocos);
+    -moz-border-radius: var(--bordas-blocos);
+    -ms-border-radius: var(--bordas-blocos);
+    -o-border-radius: var(--bordas-blocos);
+}
