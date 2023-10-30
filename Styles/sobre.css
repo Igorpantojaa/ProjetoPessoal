@@ -66,4 +66,7 @@
     .conteudo__item__carrossel{
         width: 70vw;
     }
+    .conteudo__item__texto{
+        font-size: 22px;
+    }
 }

@@ -71,4 +71,8 @@
     .conteudo__grupo{
         flex-direction: column;
     }
+
+    .redes__link__texto{
+        font-size: 22px;
+    }
 }

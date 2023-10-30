@@ -110,6 +110,7 @@
         flex-direction: column;
         width: 100%;
         align-items: center;
+        font-size: 22px;
     }
 
     .bloco-info__contato,
@@ -120,11 +121,20 @@
     .bloco-info__contato,
     .bloco-info__mapa{
         width: 80%;
-        height: 30em;
         padding: 0 1em 1em 1em;
+        font-size: 22px;
+    }
+
+    .bloco-info__mapa{
+        height: 100vh;
     }
 
     .carrossel__info-empresa{
         display: flex;
+    }
+
+    .form-contato__entrada,
+    .form-contato__text{
+        font-size: 22px;
     }
 }
