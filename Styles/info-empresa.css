@@ -6,6 +6,10 @@
     gap: 2em
 }
 
+.home{
+    margin-bottom: 1.5em;
+}
+
 .bloco-info__contato,
 .bloco-info__mapa{
     align-items: center;

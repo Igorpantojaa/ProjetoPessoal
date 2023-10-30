@@ -3,6 +3,8 @@
 @import url("Styles/info-empresa.css");
 @import url("Styles/carrossel.css");
 @import url("Styles/footer.css");
+@import url("Styles/sobre.css");
+@import url("Styles/contato.css");
 
 :root{
     --cor-primaria: #04364A;
@@ -39,7 +41,6 @@ body{
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    margin: 1.5em;
 }
 
 .bordas{

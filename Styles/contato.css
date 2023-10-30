@@ -1,0 +1,63 @@
+.conteudo{
+    display: flex;
+    align-items: center;
+}
+
+.fale-conosco{
+    margin-bottom: 1.5em;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.redes__grupo{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 0 1em 1em 1em;
+}
+
+.redes__link{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1em 2em;
+    width: 100%;
+}
+.redes__link__texto{
+    margin: 0;
+    padding: 0;
+    margin-left: .5em;
+}
+
+#instagram{
+    background: url(../Assets/Redes/instagram.png) no-repeat;
+    background-position: center;
+    background-position-x: .3em;
+}
+
+#twitter{
+    background: url(../Assets/Redes/twitter.png) no-repeat;
+    background-position: center;
+    background-position-x: .3em;
+}
+
+#linkedin{
+    background: url(../Assets/Redes/linkedin.png) no-repeat;
+    background-position: center;
+    background-position-x: .3em;
+}
+
+#whatsapp{
+    background: url(../Assets/Redes/whatsapp.png) no-repeat;
+    background-position: center;
+    background-position-x: .3em;
+}
+
+.redes__link:hover{
+    color: var(--cor-terciaria);
+}

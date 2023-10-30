@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Negócio</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__menu__grupo">
+            <a href="index.html" class="cabecalho__menu__item">Home</a>
+            <a href="contato.html" class="cabecalho__menu__item">Contato</a>
+            <a href="sobre.html" class="cabecalho__menu__item">Sobre</a>
+        </div>
+        <div class="cabecalho__menu__grupo container">
+            <input type="checkbox" id="opcoes-login" class="container__botao">
+            <label for="opcoes-login">
+                <a class="cabecalho__menu__item">Login</a>
+            </label>
+            <div id="login" class="form-orcamento bordas">
+                <input id="usuario" class="form-contato__entrada form-login__entrada" type="text" placeholder="Usuário">
+                <input id="Senha" class="form-contato__entrada form-login__entrada" type="text" placeholder="Senha">
+                <div class="login__botoes">
+                    <button id="botao-entrar" class="botao__login entrar">Entrar</button>
+                    <button id="botao-cadastrar" class="botao__login cadastrar">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="area-conteudo">
+        <section class="conteudo">
+            <h2 class="subtitulo sobre"> um pouco sobre nós</h2>
+            <div class="conteudo__grupo normal">
+                <div class="conteudo__item__carrossel">
+                    <!-- Slider main container -->
+                    <div class="swiper conteudo__carrossel">
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./Assets/Empresa/empresa1.jpg" class="historia__carrossel__imagem"></div>
+                            <div class="swiper-slide"><img src="./Assets/Empresa/Empresa2.jpg" class="historia__carrossel__imagem"></div>
+                            <div class="swiper-slide"><img src="./Assets/Empresa/Empresa3.jpg" class="historia__carrossel__imagem"></div>
+                            <div class="swiper-slide"><img src="./Assets/Empresa/Empresa4.jpg" class="historia__carrossel__imagem"></div>
+                            <div class="swiper-slide"><img src="./Assets/Empresa/Empresa5.jpg" class="historia__carrossel__imagem"></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="conteudo__item__texto">
+                    <p>
+                        Lorem ipsum dolor sit amet. Eum labore perspiciatis rem suscipit omnis et perspiciatis
+                        porro qui quis laborum qui magni laboriosam. Ut animi dolorem non sunt consequatur ut
+                        itaque modi et ipsum magni. Quo consequatur fugit id commodi nihil At autem suscipit.
+                        Non necessitatibus vero ea beatae quod aut nostrum consequatur id consequatur voluptatem
+                        ut quia nostrum eum incidunt odio eos earum error.
+                    </p>
+                    <p>
+                        Qui repellendus repell endus aut sequi sint et natus praesentium et velit maxime.
+                        Sit iusto mollitia est provident dolore a inventore voluptas sit expedita voluptas
+                        sit cumque explicabo et autem fuga aut libero reprehenderit. Aut tempora necessitatibus
+                        quo galisum Quis vel voluptas facere sit sint nulla est nemo mollitia At fugit inventore.
+                    </p>
+                </div>
+            </div>
+            <h2 class="sobre subtitulo"> Nossa equipe</h2>
+            <div class="conteudo__grupo reverso">
+                <div class="conteudo__item__carrossel">
+                    <!-- Slider main container -->
+                    <div class="swiper conteudo__carrossel">
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./Assets/Equipe/Equipe1.jpg" class="historia__carrossel__imagem"></div>
+                            <div class="swiper-slide"><img src="./Assets/Equipe/Equipe2.jpg" class="historia__carrossel__imagem"></div>
+                            <div class="swiper-slide"><img src="./Assets/Equipe/Equipe3.jpg" class="historia__carrossel__imagem"></div>
+                            <div class="swiper-slide"><img src="./Assets/Equipe/Equipe4.jpg" class="historia__carrossel__imagem"></div>
+                            <div class="swiper-slide"><img src="./Assets/Equipe/Equipe5.jpg" class="historia__carrossel__imagem"></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="conteudo__item__texto">
+                    <p>
+                        Lorem ipsum dolor sit amet. Eum labore perspiciatis rem suscipit omnis et perspiciatis
+                        porro qui quis laborum qui magni laboriosam. Ut animi dolorem non sunt consequatur ut
+                        itaque modi et ipsum magni. Quo consequatur fugit id commodi nihil At autem suscipit.
+                        Non necessitatibus vero ea beatae quod aut nostrum consequatur id consequatur voluptatem
+                        ut quia nostrum eum incidunt odio eos earum error.
+                    </p>
+                    <p>
+                        Qui repellendus repell endus aut sequi sint et natus praesentium et velit maxime.
+                        Sit iusto mollitia est provident dolore a inventore voluptas sit expedita voluptas
+                        sit cumque explicabo et autem fuga aut libero reprehenderit. Aut tempora necessitatibus
+                        quo galisum Quis vel voluptas facere sit sint nulla est nemo mollitia At fugit inventore.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por Igor Pantoja</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 500,
+            loop: true,
+            spaceBetween: 20,
+            slidesPerView: 1,
+            freeMode: {
+                enabled: true,
+                sticky: true,
+            },
+            navigation:{
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination:{
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
+</html>
